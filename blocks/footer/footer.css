@@ -6,26 +6,29 @@
     margin: 0 auto;
     margin-top: 100px;
     padding-bottom: 24px;
-   }
-   @media screen and (max-width: 1279px) {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    }
+
+   @media screen and (max-width: 1024px) {
     .footer {
       max-width: 928px;
       margin-top: 92px;
     }
   }
-  
-  @media screen and (max-width: 1023px) {
+
+  @media screen and (max-width: 768px) {
     .footer {
       max-width: 720px;
       margin-top: 88px;
     }
   }
-  
-  @media screen and (max-width: 767px) {
+
+  @media screen and (max-width: 320px) {
     .footer {
       flex-direction: column;
-      max-width: 320px;
+      max-width: 186px;
       margin-top: 64px;
+      align-items: flex-start;
     }
   }
-  

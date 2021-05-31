@@ -6,4 +6,6 @@
 3) Трансформации для элементов сайта
 4) Grid
 
+ссылка на проект на GitHub Pages: https://antoha152.github.io/russian-travel/
+
 Спасибо Яндекс Практикум!
