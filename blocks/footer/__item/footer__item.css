@@ -1,6 +1,9 @@
 .footer__item {
   margin-bottom: 32px;
 }
+.footer__item:last-child {
+  margin: 0;
+}
 
 @media screen and (min-width: 768px) {
   .footer__item {

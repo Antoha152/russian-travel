@@ -7,7 +7,7 @@
     margin-top: 100px;
     padding-bottom: 24px;
     box-sizing: border-box;
-    overflow-x: hidden;
+
     }
 
    @media screen and (max-width: 1024px) {
@@ -19,6 +19,7 @@
 
   @media screen and (max-width: 768px) {
     .footer {
+      flex-direction: column;
       max-width: 720px;
       margin-top: 88px;
     }
