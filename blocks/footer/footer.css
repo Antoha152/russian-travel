@@ -17,11 +17,13 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
     .footer {
       flex-direction: column;
       max-width: 720px;
       margin-top: 88px;
+      align-items: flex-start;
+      margin-left: 16px;
     }
   }
 
@@ -31,5 +33,6 @@
       max-width: 186px;
       margin-top: 64px;
       align-items: flex-start;
+      margin-left: 16px;
     }
   }
